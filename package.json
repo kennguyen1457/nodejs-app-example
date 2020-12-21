@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kennguyen1457/nodejs-app-example/issues"
   },
-  "homepage": "https://github.com/kennguyen1457/nodejs-app-example#readme"
+  "homepage": "https://github.com/kennguyen1457/nodejs-app-example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
